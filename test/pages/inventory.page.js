@@ -1,4 +1,6 @@
-class InventoryPage {
+const Page = require("./page");
+
+class InventoryPage extends Page {
     getProductByName(name) {
       return $(`//*[text()='${name}']/ancestor::div[@class='inventory_item']`);
     }

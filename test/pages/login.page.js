@@ -1,6 +1,6 @@
-const page = require("./page");
+const Page = require("./page");
 
-class LoginPage {
+class LoginPage extends Page {
   //Disini didefinisikan locator dari element
   get usernameInput() {
     return $('#user-name'); //locator field username
