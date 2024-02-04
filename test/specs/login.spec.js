@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 describe('Saucedemo Login Tests', () => {
     it('should login successfully with valid credentials', async () => {
       await browser.url('https://www.saucedemo.com/');
