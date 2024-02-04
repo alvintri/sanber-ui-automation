@@ -1,0 +1,22 @@
+{
+  "name": "sanber-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvintri/sanber-ui-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvintri/sanber-ui-automation/issues"
+  },
+  "homepage": "https://github.com/alvintri/sanber-ui-automation#readme",
+  "dependencies": {
+    "@wdio/cli": "^8.29.7"
+  }
+}
